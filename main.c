@@ -15,15 +15,17 @@ int main(int argc, char *argv[]) {
     }
     }
   N=j;
+  if(N==0) printf("No prime\n");
    
   
   
    display(prime,N);
   bubbleSort(prime,N); 
+   display(prime,N);
    //insertion(a,N);
 
   // selectionSort(a,N);
-   //display(a,N);
+   
  return 0;
 }
 
